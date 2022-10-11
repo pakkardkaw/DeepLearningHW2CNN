@@ -2,7 +2,7 @@
 
 Simple overview of use/purpose.
 
-## Data for 3 Application
+## Data Source
 1. Waste Images consist of xx,xxx images which can be catagorized into 4 groups
 - Organic
 - Recycle
