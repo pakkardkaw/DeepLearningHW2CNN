@@ -43,7 +43,7 @@ An in-depth paragraph about your project and overview of use.
     - XXXX
   4.2 Added dense layers to perform clasification tasks
     - Image of Buddha :  
-       - Dense512 relu -> dropout0.5-> Sense 128 relu -> dropout 0.5 -> Dense 64  Relu -> Dense 8  softmax
+       - Dense512 relu -> dropout0.4-> Sense 128 relu -> dropout 0.4 -> Dense 64  Relu -> Dense 8  softmax
        - Optimizer = Adam
        - Loss function = categorical_crossentropy
        - Metric = Accuracy
@@ -67,12 +67,14 @@ Processor : RTX3060 TI RAM 8 GB
 
   | Dataset  | Records |   Lost   | Accuracy |
   |----------|---------|----------|----------|
-  | Train    |   1,112 |  0.5887  |  0.7473  |
-  | Validate |     368 |  1.0061  |  0.7283  |
-  | Test     |     372 |  0.9924  |  0.6962  |
+  | Train    |   1,112 |  0.3789  |  0.8516  |
+  | Validate |     368 |  1.0657  |  0.7391  |
+  | Test     |     372 |  0.9709  |  0.7419  |
   
-![image](https://user-images.githubusercontent.com/11289173/195145837-adb87c46-a877-4435-b1be-b77645768871.png)
-![image](https://user-images.githubusercontent.com/11289173/195145861-b8daeaab-0e47-4cd5-b38b-1e2bf205d839.png)
+![image](https://user-images.githubusercontent.com/11289173/195155214-3f374651-af6e-4c1c-91e3-176a1263a790.png)
+
+![image](https://user-images.githubusercontent.com/11289173/195155232-19cda238-e3d6-49df-92de-379c36d9b439.png)
+
 
 
 
