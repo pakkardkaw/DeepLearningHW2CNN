@@ -20,7 +20,15 @@ Source : google search
 
 An in-depth paragraph about your project and overview of use.
 
-## Getting Started
+## Methodology
+1. Data Gathering and Labeling 
+2. Image augmentation and standard preprocessing
+  2.1 rescale by divided by 255
+  2.2 .....
+  2.3 use standadard preprocessing for each model
+4. Select 2 well-known CNN models, VGG16 and XXXXX with pre-trained imagenet result weight and remove classification layer set
+5. Added dense layers to perform clasification tasks
+6. Evaluate model
 
 ### Dependencies
 
