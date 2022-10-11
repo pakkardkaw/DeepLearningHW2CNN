@@ -21,8 +21,19 @@ Source : google search
 An in-depth paragraph about your project and overview of use.
 
 ## Methodology
+[Image of process flow]
 1. Data Gathering and Labeling 
-2. Image augmentation and standard preprocessing
+  1.1 Split data 60:20:20  Train Test validation
+  1.2 
+3. Image augmentation and standard preprocessing
+
+
+  | Dataset        | Rescale           | rotation            | zoom               |
+  |----------------|-------------------|---------------------|--------------------|
+  | Waste          | :heavy_check_mark:|:heavy_check_mark:   |:heavy_check_mark:  |
+  | Thai number    | :heavy_check_mark:|:heavy_check_mark:   |:heavy_check_mark:  |
+  | Image of budha | :heavy_check_mark:| :x:                 |:heavy_check_mark:  |
+
   2.1 rescale by divided by 255
   2.2 .....
   2.3 use standadard preprocessing for each model
