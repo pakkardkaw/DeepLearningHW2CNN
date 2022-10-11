@@ -28,11 +28,11 @@ An in-depth paragraph about your project and overview of use.
 3. Image augmentation and standard preprocessing
 
 
-  | Dataset        | Rescale           | rotation            | zoom               |
-  |----------------|-------------------|---------------------|--------------------|
-  | Waste          | :heavy_check_mark:|:heavy_check_mark:   |:heavy_check_mark:  |
-  | Thai number    | :heavy_check_mark:|:heavy_check_mark:   |:heavy_check_mark:  |
-  | Image of budha | :heavy_check_mark:| :x:                 |:heavy_check_mark:  |
+| Dataset        | Rescale           | rotation            | zoom               |
+|----------------|-------------------|---------------------|--------------------|
+| Waste          | :heavy_check_mark:|:heavy_check_mark:   |:heavy_check_mark:  |
+| Thai number    | :heavy_check_mark:|:heavy_check_mark:   |:heavy_check_mark:  |
+| Image of budha | :heavy_check_mark:| :x:                 |:heavy_check_mark:  |
 
   2.1 rescale by divided by 255
   2.2 .....
@@ -52,7 +52,7 @@ An in-depth paragraph about your project and overview of use.
   6.1 Image of Buddha
    - Image size 256x256 px
    - batch size = 16
-   - 
+   - Epoch = 60
 9. Evaluate model
 
 ### Result for each application
@@ -64,11 +64,13 @@ An in-depth paragraph about your project and overview of use.
 4. Image of Buddha Classification
 Training Time :  423 seconds
 Processor : RTX3060 TI RAM 8 GB
+
   | Dataset  | Records |   Lost   | Accuracy |
   |----------|---------|----------|----------|
   | Train    |   1,112 |  0.6178  |  0.7590  |
   | Validate |     368 |  1.0016  |  0.7283  |
   | Test     |     372 |  1.0368  |  0.6882  |
+  
 ![image](https://user-images.githubusercontent.com/11289173/195145837-adb87c46-a877-4435-b1be-b77645768871.png)
 ![image](https://user-images.githubusercontent.com/11289173/195145861-b8daeaab-0e47-4cd5-b38b-1e2bf205d839.png)
 
