@@ -43,7 +43,7 @@ An in-depth paragraph about your project and overview of use.
     - XXXX
   4.2 Added dense layers to perform clasification tasks
     - Image of Buddha :  
-       - Dense512 relu -> dropout0.5-> Sense 64 relu -> dropout 0.5 -> Dense 32  Relu -> Dense 8  softmax
+       - Dense512 relu -> dropout0.5-> Sense 128 relu -> dropout 0.5 -> Dense 64  Relu -> Dense 8  softmax
        - Optimizer = Adam
        - Loss function = categorical_crossentropy
        - Metric = Accuracy
@@ -62,14 +62,14 @@ An in-depth paragraph about your project and overview of use.
 3. Thai Digit Recognition
 
 4. Image of Buddha Classification
-Training Time :  423 seconds
+Training Time :  417.45 seconds
 Processor : RTX3060 TI RAM 8 GB
 
   | Dataset  | Records |   Lost   | Accuracy |
   |----------|---------|----------|----------|
-  | Train    |   1,112 |  0.6178  |  0.7590  |
-  | Validate |     368 |  1.0016  |  0.7283  |
-  | Test     |     372 |  1.0368  |  0.6882  |
+  | Train    |   1,112 |  0.5887  |  0.7473  |
+  | Validate |     368 |  1.0061  |  0.7283  |
+  | Test     |     372 |  0.9924  |  0.6962  |
   
 ![image](https://user-images.githubusercontent.com/11289173/195145837-adb87c46-a877-4435-b1be-b77645768871.png)
 ![image](https://user-images.githubusercontent.com/11289173/195145861-b8daeaab-0e47-4cd5-b38b-1e2bf205d839.png)
