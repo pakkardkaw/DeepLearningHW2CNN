@@ -62,6 +62,8 @@ An in-depth paragraph about your project and overview of use.
 3. Thai Digit Recognition
 
 4. Image of Buddha Classification
+
+# Base Model VGG16
 Training Time :  417.45 seconds
 Processor : RTX3060 TI RAM 8 GB
 
@@ -76,8 +78,15 @@ Processor : RTX3060 TI RAM 8 GB
 ![image](https://user-images.githubusercontent.com/11289173/195155232-19cda238-e3d6-49df-92de-379c36d9b439.png)
 
 
+# Base Model InceptionV3
+Training Time :   seconds
+Processor : RTX3060 TI RAM 8 GB
 
-
+  | Dataset  | Records |   Lost   | Accuracy |
+  |----------|---------|----------|----------|
+  | Train    |   1,112 |          |          |
+  | Validate |     368 |          |          |
+  | Test     |     372 |          |          |
 
 ### Comparison
 
