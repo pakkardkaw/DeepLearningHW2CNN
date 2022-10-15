@@ -39,8 +39,8 @@ An in-depth paragraph about your project and overview of use.
   2.3 use standadard preprocessing for each model
 4. Select 2 well-known CNN models, VGG16 and XXXXX with pre-trained imagenet result weight and remove classification layer set
   4.1 Select base model
-    - VGG16
-    - XXXX
+    - VGG16 : Freeze all feature extraction layers
+    - InceptionV3 : Freeze all feature extraction layers except last con2d layer,namely "conv2d_93"
   4.2 Added dense layers to perform clasification tasks
     - Image of Buddha :  
        - Dense512 relu -> dropout0.4-> Sense 128 relu -> dropout 0.4 -> Dense 64  Relu -> Dense 8  softmax
