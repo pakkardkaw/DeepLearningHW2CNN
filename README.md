@@ -70,11 +70,20 @@ An in-depth paragraph about your project and overview of use.
 Training Time :  417.45 seconds
 Processor : RTX3060 TI RAM 8 GB
 
-  | Dataset  | Records |   Lost   | Accuracy |
-  |----------|---------|----------|----------|
-  | Train    |   1,112 |  0.3789  |  0.8516  |
-  | Validate |     368 |  1.0657  |  0.7391  |
-  | Test     |     372 |  0.9709  |  0.7419  |
+  | Seed | Dataset  | Records |   Lost   | Accuracy |
+  |------|----------|---------|----------|----------|
+  | 1111 | Train    |   1,112 |  0.3789  |  0.8516  |
+  | 1111 | Validate |     368 |  1.0657  |  0.7391  |
+  | 1111 | Test     |     372 |  0.9709  |  0.7419  |
+  | 2222 | Train    |   1,112 |  0.3789  |  0.8516  |
+  | 2222 | Validate |     368 |  1.0657  |  0.7391  |
+  | 2222 | Test     |     372 |  0.9709  |  0.7419  |
+  | 3333 | Train    |   1,112 |  0.3789  |  0.8516  |
+  | 3333 | Validate |     368 |  1.0657  |  0.7391  |
+  | 3333 | Test     |     372 |  0.9709  |  0.7419  |
+  | avg  | Train    |   1,112 |  0.3789  |  0.8516  |
+  | avg  | Validate |     368 |  1.0657  |  0.7391  |
+  | avg  | Test     |     372 |  0.9709  |  0.7419  |  
   
 ![image](https://user-images.githubusercontent.com/11289173/195155214-3f374651-af6e-4c1c-91e3-176a1263a790.png)
 
