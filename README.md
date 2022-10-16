@@ -33,8 +33,6 @@ An in-depth paragraph about your project and overview of use.
 
 | Dataset        | Rescale           | rotation            | zoom               |
 |----------------|-------------------|---------------------|--------------------|
-| Waste          | :heavy_check_mark:|:heavy_check_mark:   |:heavy_check_mark:  |
-| Thai number    | :heavy_check_mark:|:heavy_check_mark:   |:heavy_check_mark:  |
 | Image of budha | :heavy_check_mark:| :x:                 |:heavy_check_mark:  |
 
   2.1 rescale by divided by 255
@@ -58,47 +56,18 @@ An in-depth paragraph about your project and overview of use.
    - Epoch = 60
 9. Evaluate model
 
-### Result for each application
-
-1. Waste Catagory Classification
-
-3. Thai Digit Recognition
-
-4. Image of Buddha Classification
+### Result for each Model
 
 # Base Model VGG16
-Training Time :  417.45 seconds
-Processor : RTX3060 TI RAM 8 GB
+Processor : Tesla T4
 
-  | Seed | Dataset  | Records |   Lost   | Accuracy | Train Time (s) |
-  |------|----------|---------|----------|----------|----------------|
-  | 1111 | Train    |   1,112 |  0.3789  |  0.8516  |                |
-  | 1111 | Validate |     368 |  1.0657  |  0.7391  |                |
-  | 1111 | Test     |     372 |  0.9709  |  0.7419  |                |
-  | 2222 | Train    |   1,112 |  0.3789  |  0.8516  |                |
-  | 2222 | Validate |     368 |  1.0657  |  0.7391  |                |
-  | 2222 | Test     |     372 |  0.9709  |  0.7419  |                |
-  | 3333 | Train    |   1,112 |  0.3789  |  0.8516  |                |
-  | 3333 | Validate |     368 |  1.0657  |  0.7391  |                |
-  | 3333 | Test     |     372 |  0.9709  |  0.7419  |                |
-  | avg  | Train    |   1,112 |  0.3789  |  0.8516  |                |
-  | avg  | Validate |     368 |  1.0657  |  0.7391  |                |
-  | avg  | Test     |     372 |  0.9709  |  0.7419  |                | 
+  |  Model | Dataset  | Records |   Lost   | Accuracy | Train Time (s) |
+  |--------|----------|---------|----------|----------|----------------|
+  | VGG16  | Train    |   1,112 |          |          |                |
+  | VGG16  | Validate |     368 |          |          |                |
+  | VGG16  | Test     |     372 |          |          |                | 
   
-![image](https://user-images.githubusercontent.com/11289173/195155214-3f374651-af6e-4c1c-91e3-176a1263a790.png)
 
-![image](https://user-images.githubusercontent.com/11289173/195155232-19cda238-e3d6-49df-92de-379c36d9b439.png)
-
-
-# Base Model InceptionV3
-Training Time :   seconds
-Processor : RTX3060 TI RAM 8 GB
-
-  | Dataset  | Records |   Lost   | Accuracy |
-  |----------|---------|----------|----------|
-  | Train    |   1,112 |          |          |
-  | Validate |     368 |          |          |
-  | Test     |     372 |          |          |
 
 ### Comparison
 
