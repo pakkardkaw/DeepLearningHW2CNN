@@ -43,11 +43,15 @@ An in-depth paragraph about your project and overview of use.
     - VGG16 : Freeze all feature extraction layers
     - InceptionV3 : Freeze all feature extraction layers except last con2d layer,namely "conv2d_93"
   4.2 Added dense layers to perform clasification tasks
-    - Image of Buddha :  
+    - Modified VGG16 :  
        - Dense512 relu -> dropout0.4-> Sense 128 relu -> dropout 0.4 -> Dense 64  Relu -> Dense 8  softmax
        - Optimizer = Adam
        - Loss function = categorical_crossentropy
        - Metric = Accuracy
+![image](https://user-images.githubusercontent.com/11289173/196020339-00d0b629-ec92-4a18-ab36-70e4124f1ea4.png)
+
+
+       
    
 8. Train Model
   6.1 Image of Buddha
