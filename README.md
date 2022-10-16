@@ -22,6 +22,9 @@ An in-depth paragraph about your project and overview of use.
 
 ## Methodology
 [Image of process flow]
+0. set seed
+ 1111,2222,3333
+
 1. Data Gathering and Labeling 
   1.1 Split data 60:20:20  Train Test validation
   1.2 
