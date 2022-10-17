@@ -6,8 +6,7 @@ Simple overview of use/purpose.
 ## Data Source
 Collect image from google search 1,852 picture of image of budha for each day and split data using systematic ramdom using ranking of file name.
 
-|  Class  |   Train  |  Validate  |  Test  |
-|         |     60%  |      20%   |   20%  |
+|  Class  |   Train 60%  |  Validate 20% |  Test 20% |
 |---------|----------|------------|--------|
 | Mon     |     115  |      37    |   39   |
 | Tue     |     113  |      37    |   39   |
