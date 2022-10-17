@@ -85,15 +85,15 @@ Processor : Tesla T4
 
 ## Team Members
 
-6410422014 (24%)
+6410422014 (%)
 
-6410422012 (22%)
+6410422012 (%)
 
-6410422019 (18%) 
+6410422019 (%) 
 
-6410422023 (18%)
+6410422023 (%)
 
-6410422035 (18%)
+6410422035 (%)
 
 This project is a part of subject DADS7202. Data Analytics and Data Science. NIDA
 
