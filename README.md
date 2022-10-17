@@ -1,22 +1,25 @@
 # HW 2: The pre-trained CNN, 3 Applications of image classification: KatokKatak
+![image](https://user-images.githubusercontent.com/11289173/195136123-ef90c34c-7e1d-45cf-a181-8313a237b2b4.png)
 
 Simple overview of use/purpose.
 
 ## Data Source
-1. Waste Images consist of xx,xxx images which can be catagorized into 4 groups
-- Organic
-- Recycle
-- General
-- Hazard
-Source : ........
+Collect image from google search 1,852 picture of image of budha for each day and split data using systematic ramdom using ranking of file name.
 
-2. Hand writing Thai number data set cosist of xx,xxx images for 0-9 Thai digits
-Source : 
+|  Class  |   Train  |  Validate  |  Test  |
+|         |     60%  |      20%   |   20%  |
+|---------|----------|------------|--------|
+| Mon     |     115  |      37    |   39   |
+| Tue     |     113  |      37    |   39   |
+| Wed (m) |     112  |      38    |   39   |
+| Wed (n) |     112  |      39    |   38   |
+| Thu     |     125  |      42    |   40   |
+| Fri     |     202  |      69    |   68   |
+| Sat     |     157  |      51    |   54   |
+| Sun     |     184  |      63    |   63   |
 
-3. Image of Budha posture for each day of week. Number of class is 8 as following
-![image](https://user-images.githubusercontent.com/11289173/195136123-ef90c34c-7e1d-45cf-a181-8313a237b2b4.png)
 
-Source : google search
+Source : see reference.xls
 
 An in-depth paragraph about your project and overview of use.
 
