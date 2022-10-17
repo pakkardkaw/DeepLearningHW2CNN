@@ -18,9 +18,8 @@ Collect image from google search 1,852 picture of image of budha for each day an
 | Sun     |     184  |      63    |   63   |
 
 
-Source : see reference.xls
+Source : see reference.xlsx
 
-An in-depth paragraph about your project and overview of use.
 
 ## Methodology
 [Image of process flow]
@@ -29,49 +28,53 @@ An in-depth paragraph about your project and overview of use.
 
 1. Data Gathering and Labeling 
   1.1 Split data 60:20:20  Train Test validation
-  1.2 
-3. Image augmentation and standard preprocessing
+2. Image augmentation and standard preprocessing
 
 
-| Dataset        | Rescale           | rotation            | zoom               |
-|----------------|-------------------|---------------------|--------------------|
-| Image of budha | :heavy_check_mark:| :x:                 |:heavy_check_mark:  |
-
-  2.1 rescale by divided by 255
-  2.2 .....
-  2.3 use standadard preprocessing for each model
-4. Select 2 well-known CNN models, VGG16 and XXXXX with pre-trained imagenet result weight and remove classification layer set
+  2.1 rescale (if there is no scaling action in model preprocessing)
+  2.2 Image augmentation for train dataset
+    2.2.1 rotation_range=40,
+    2.2.2 width_shift_range=0.2,
+    2.2.3 height_shift_range=0.2,
+    2.2.4 shear_range=0.2,
+    2.2.5 zoom_range=0.2,
+    2.2.6 brightness_range=(0.5,0.8),
+    2.2.7 horizontal_flip=True,
+  2.3 Apply standadard preprocessing for each model
+4. Select 2 well-known CNN models, VGG16 and XXXXX with pre-trained imagenet  weight and remove classification layer set
   4.1 Select base model
     - VGG16 : Freeze all feature extraction layers
-    - InceptionV3 : Freeze all feature extraction layers except last con2d layer,namely "conv2d_93"
+    - Xception : Freeze all feature extraction layers
   4.2 Added dense layers to perform clasification tasks
-    - Modified VGG16 :  
        - Dense512 relu -> dropout0.4-> Sense 128 relu -> dropout 0.4 -> Dense 64  Relu -> Dense 8  softmax
        - Optimizer = Adam
        - Loss function = categorical_crossentropy
        - Metric = Accuracy
 ![image](https://user-images.githubusercontent.com/11289173/196020339-00d0b629-ec92-4a18-ab36-70e4124f1ea4.png)
 
-
-       
-   
 8. Train Model
   6.1 Image of Buddha
-   - Image size 256x256 px
-   - batch size = 16
-   - Epoch = 60
+   - Image size vary by model
+   - batch size vary by model
+   - Epoch vary by model
+   |   Model  | Image size | batch size | Epoch | Remark |
+   |----------|------------|------------|-------|--------|
+   | VGG16    |  256 * 256 |    16      |   300 |        |
+   | Xception |  299 * 299 |    16      |   300 |        |
 9. Evaluate model
 
 ### Result for each Model
-
-# Base Model VGG16
 Processor : Tesla T4
+
 
   |  Model | Dataset  | Records |   Lost   | Accuracy | Train Time (s) |
   |--------|----------|---------|----------|----------|----------------|
-  | VGG16  | Train |     368 |0.3363±0.04|0.8735±0.01          |     1018.8567±7.955           |
-  | VGG16  | Validate     |     372 |1.1404±0.06|0.7446±0.01          |                | 
-  | VGG16  | test    |   1,112 |1.2113±0.15|0.7301±0.01          |                |
+  | VGG16  | Train    |   1,112 |0.3363±0.04|0.8735±0.01|    1,019±8  |
+  | VGG16  | Validate |     368 |1.1404±0.06|0.7446±0.01|       N/A    | 
+  | VGG16  | test     |     372 |1.2113±0.15|0.7301±0.01|       N/A    |
+  |Xception| Train    |   1,112 |0.5210±0.01|0.8249±0.01|   13,940±964 |
+  |Xception| Validate |     368 |0.9746±0.01|0.6666±0.01|       N/A    | 
+  |Xception| test     |     372 |0.9908±0.03|0.6666±0.03|       N/A    | 
   
 
 
