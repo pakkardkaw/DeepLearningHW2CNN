@@ -73,14 +73,11 @@ Source : see reference.xlsx
 Processor : Tesla T4
 
 
-  |  Model | Dataset  | Records |   Lost   | Accuracy | Train Time (s) |
-  |--------|----------|---------|----------|----------|----------------|
-  |Xception| Train    |   1,112 |0.5210±0.01|0.8249±0.01|   13,940±964 |
-  |Xception| Validate |     368 |0.9746±0.01|0.6666±0.01|       N/A    | 
-  |Xception| test     |     372 |0.9908±0.03|0.6666±0.03|       N/A    | 
-  | VGG16  | Train    |   1,112 |0.3363±0.04|0.8735±0.01|    1,019±8  |
-  | VGG16  | Validate |     368 |1.1404±0.06|0.7446±0.01|       N/A    | 
-  | VGG16  | test     |     372 |1.2113±0.15|0.7301±0.01|       N/A    |  
+  |  Model | Dataset  | Records |   Lost   | Accuracy | Train Time (s) | Pretrained Accuracy |
+  |--------|----------|---------|----------|----------|----------------|---------------------|
+  | VGG16  | Train    |   1,112 |0.3363±0.04|0.8735±0.01|    1,019±8  |                      |
+  | VGG16  | Validate |     368 |1.1404±0.06|0.7446±0.01|       N/A    |                     |
+  | VGG16  | test     |     372 |1.2113±0.15|0.7301±0.01|       N/A    |                     | 
 
 
 ### Comparison
