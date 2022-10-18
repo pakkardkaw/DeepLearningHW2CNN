@@ -33,6 +33,7 @@ Source : see reference.xlsx
 
   2.1 rescale (if there is no scaling action in model preprocessing)
   2.2 Image augmentation for train dataset
+  
         -layers.RandomFlip("horizontal")
         -layers.RandomRotation(0.1)
         -layers.Normalization()
@@ -40,6 +41,7 @@ Source : see reference.xlsx
         -layers.RandomRotation(factor=0.1)
         -layers.RandomContrast(factor=0.1)
         -layers.RandomZoom(height_factor=0.2, width_factor=0.2)
+        
   2.3 Apply standadard preprocessing for each model
 4. Select 2 well-known CNN models, VGG16 and XXXXX with pre-trained imagenet  weight and remove classification layer set
   4.1 Select base model
