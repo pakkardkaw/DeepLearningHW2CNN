@@ -43,15 +43,17 @@ Source : see reference.xlsx
         -layers.RandomZoom(height_factor=0.2, width_factor=0.2)
         
   2.3 Apply standadard preprocessing for each model
-4. Select 2 well-known CNN models, VGG16 and XXXXX with pre-trained imagenet  weight and remove classification layer set
-  4.1 Select base model
+  
+3. Select 2 well-known CNN models, VGG16 and XXXXX with pre-trained imagenet  weight and remove classification layer set
+  3.1 Select base model
     - VGG16 : Freeze all feature extraction layers
     - Xception : Freeze all feature extraction layers
-  4.2 Added dense layers to perform clasification tasks
+  3.2 Added dense layers to perform clasification tasks
        - Dense512 relu -> dropout0.4-> Sense 128 relu -> dropout 0.4 -> Dense 64  Relu -> Dense 8  softmax
        - Optimizer = Adam
        - Loss function = categorical_crossentropy
        - Metric = Accuracy
+       
 ![image](https://user-images.githubusercontent.com/11289173/196020339-00d0b629-ec92-4a18-ab36-70e4124f1ea4.png)
 
 8. Train Model
