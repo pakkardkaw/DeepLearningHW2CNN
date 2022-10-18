@@ -33,13 +33,13 @@ Source : see reference.xlsx
 
   2.1 rescale (if there is no scaling action in model preprocessing)
   2.2 Image augmentation for train dataset
-    2.2.1 rotation_range=40,
-    2.2.2 width_shift_range=0.2,
-    2.2.3 height_shift_range=0.2,
-    2.2.4 shear_range=0.2,
-    2.2.5 zoom_range=0.2,
-    2.2.6 brightness_range=(0.5,0.8),
-    2.2.7 horizontal_flip=True,
+        -layers.RandomFlip("horizontal")
+        -layers.RandomRotation(0.1)
+        -layers.Normalization()
+        -layers.RandomFlip("horizontal")
+        -layers.RandomRotation(factor=0.1)
+        -layers.RandomContrast(factor=0.1)
+        -layers.RandomZoom(height_factor=0.2, width_factor=0.2)
   2.3 Apply standadard preprocessing for each model
 4. Select 2 well-known CNN models, VGG16 and XXXXX with pre-trained imagenet  weight and remove classification layer set
   4.1 Select base model
