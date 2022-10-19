@@ -1,5 +1,5 @@
 ![cover](https://user-images.githubusercontent.com/11289173/196726512-f1994677-141e-4d24-bdbe-887146d323b5.jpg)
-# HW 2: The pre-trained CNN, 3 Applications of image classification: KatokKatak
+# HW 2: Image of Buddha Classification using pre-trained CNN Models
 
 Simple overview of use/purpose.
 
@@ -29,19 +29,15 @@ Source : see reference.xlsx
 1. Data Gathering and Labeling 
   1.1 Split data 60:20:20  Train Test validation
 2. Image augmentation and standard preprocessing
-
-
   2.1 rescale (if there is no scaling action in model preprocessing)
-  2.2 Image augmentation for train dataset
-  
-        -layers.RandomFlip("horizontal")
-        -layers.RandomRotation(0.1)
-        -layers.Normalization()
-        -layers.RandomFlip("horizontal")
-        -layers.RandomRotation(factor=0.1)
-        -layers.RandomContrast(factor=0.1)
-        -layers.RandomZoom(height_factor=0.2, width_factor=0.2)
-        
+  2.2 Image augmentation
+        -RandomFlip("horizontal")
+        -RandomRotation(0.1)
+        -Normalization()
+        -RandomFlip("horizontal")
+        -RandomRotation(factor=0.1)
+        -RandomContrast(factor=0.1)
+        -RandomZoom(height_factor=0.2, width_factor=0.2)
   2.3 Apply standadard preprocessing for each model
   
 3. Select 2 well-known CNN models, VGG16 and XXXXX with pre-trained imagenet  weight and remove classification layer set
