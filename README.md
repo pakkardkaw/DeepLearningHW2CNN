@@ -1,5 +1,5 @@
+![cover](https://user-images.githubusercontent.com/11289173/196726512-f1994677-141e-4d24-bdbe-887146d323b5.jpg)
 # HW 2: The pre-trained CNN, 3 Applications of image classification: KatokKatak
-![image](https://user-images.githubusercontent.com/11289173/195136123-ef90c34c-7e1d-45cf-a181-8313a237b2b4.png)
 
 Simple overview of use/purpose.
 
