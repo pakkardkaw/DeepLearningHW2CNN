@@ -6,16 +6,16 @@ Simple overview of use/purpose.
 ## Data Source
 Collect image from google search 1,852 picture of image of budha for each day and split data using systematic ramdom using ranking of file name.
 
-|  Class  |   Train 60%  |  Validate 20% |  Test 20% |
-|---------|----------|------------|--------|
-| Mon     |     115  |      37    |   39   |
-| Tue     |     113  |      37    |   39   |
-| Wed (m) |     112  |      38    |   39   |
-| Wed (n) |     112  |      39    |   38   |
-| Thu     |     125  |      42    |   40   |
-| Fri     |     202  |      69    |   68   |
-| Sat     |     157  |      51    |   54   |
-| Sun     |     184  |      63    |   63   |
+|Class    |  Image  |   Train 60%  |  Validate 20% |  Test 20% |
+|---------|---------|----------|------------|--------|
+| Mon ปางห้ามญาติ| ![image](https://user-images.githubusercontent.com/11289173/196733095-d78b9c54-7139-41da-a143-96bea98d7611.png)  |     115  |      37    |   39   |
+| Tue ปางไสยาสน์| ![image](https://user-images.githubusercontent.com/11289173/196733034-2cbeaa66-de22-4092-b816-47ec31877fc9.png)  |     113  |      37    |   39   |
+| Wed (m) ปางอุ้มบาตร|![image](https://user-images.githubusercontent.com/11289173/196732976-12ecf1b9-cf73-41c5-9aba-b3a330c837c9.png) |     112  |      38    |   39   |
+| Wed (n) ปางป่าเลไลยก์|![image](https://user-images.githubusercontent.com/11289173/196732933-e860abec-6c15-4d9e-bbcf-702a01f62c7a.png) |     112  |      39    |   38   |
+| Thu ปางสมาธิ|![image](https://user-images.githubusercontent.com/11289173/196732862-26045f14-9e69-4b38-a481-ff9118f39327.png)    |     125  |      42    |   40   |
+| Fri ปางรำพึง|![image](https://user-images.githubusercontent.com/11289173/196732785-7ab8ddef-6297-4d16-8d8b-8decee45eeff.png)   |     202  |      69    |   68   |
+| Sat ปางนาคปรก|![image](https://user-images.githubusercontent.com/11289173/196732737-b120c7bb-595c-40d1-a34d-3ea01b8840d1.png)    |     157  |      51    |   54   |
+| Sun ปางถวายเนตร|![image](https://user-images.githubusercontent.com/11289173/196732323-a4eebc69-7fef-4727-a8b8-d04f94bb6522.png) |     184  |      63    |   63   |
 
 
 Source : see reference.xlsx
