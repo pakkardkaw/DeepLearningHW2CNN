@@ -93,7 +93,7 @@
   <img width="650" height="160" src="https://user-images.githubusercontent.com/88955224/196987534-998915fe-e2aa-4f0b-ad72-10354f84a2de.PNG">
 </p>
 <p align="center">
-  <img width="700" height="300" src="https://user-images.githubusercontent.com/88955224/196987685-3da78229-55ed-4e63-8bf1-f5225a0ccf61.png">
+  <img width="650" height="300" src="https://user-images.githubusercontent.com/88955224/196987685-3da78229-55ed-4e63-8bf1-f5225a0ccf61.png">
 </p>
 
   #### <img src="https://user-images.githubusercontent.com/101813544/197015168-e25a1546-2232-4cbf-aa87-145d90f3d9e8.png" width="18" height="18"> 3.3.2) EfficientNetB0
@@ -114,7 +114,7 @@
   <img width="650" height="160" src="https://user-images.githubusercontent.com/88955224/196988508-019e5275-a1c0-4316-9dd1-5939da834250.PNG">
 </p>
 <p align="center">
-  <img width="700" height="300" src="https://user-images.githubusercontent.com/88955224/196988640-b704c6f1-d330-48de-b29e-9590dddfa13e.png">
+  <img width="650" height="300" src="https://user-images.githubusercontent.com/88955224/196988640-b704c6f1-d330-48de-b29e-9590dddfa13e.png">
 </p>
 
   #### <img src="https://user-images.githubusercontent.com/101813544/197015168-e25a1546-2232-4cbf-aa87-145d90f3d9e8.png" width="18" height="18"> 3.3.3) ResNet50
@@ -142,7 +142,7 @@
   <img width="650" height="160" src="https://user-images.githubusercontent.com/88955224/196989301-c6f18841-4536-46a6-ae70-65a45d4192f6.PNG">
 </p>
 <p align="center">
-  <img width="700" height="300" src="https://user-images.githubusercontent.com/88955224/196989292-6d56789c-20ec-479b-ae81-0faa9aaebc50.png">
+  <img width="650" height="300" src="https://user-images.githubusercontent.com/88955224/196989292-6d56789c-20ec-479b-ae81-0faa9aaebc50.png">
 </p>
 
   #### <img src="https://user-images.githubusercontent.com/101813544/197015168-e25a1546-2232-4cbf-aa87-145d90f3d9e8.png" width="18" height="18"> 3.3.4) MobileNetV2
@@ -171,7 +171,7 @@
   <img width="650" height="160" src="https://user-images.githubusercontent.com/88955224/196990088-c2dfbbed-0d01-4e12-9466-9aa9a93be98c.PNG">
 </p>
 <p align="center">
-  <img width="700" height="300" src="https://user-images.githubusercontent.com/88955224/196990075-b4135541-3876-4133-a9f2-a429f25a8158.png">
+  <img width="650" height="300" src="https://user-images.githubusercontent.com/88955224/196990075-b4135541-3876-4133-a9f2-a429f25a8158.png">
 </p>
 
   #### <img src="https://user-images.githubusercontent.com/101813544/197015168-e25a1546-2232-4cbf-aa87-145d90f3d9e8.png" width="18" height="18"> 3.3.5) InceptionResNetV2
@@ -199,7 +199,7 @@
   <img width="650" height="160" src="https://user-images.githubusercontent.com/88955224/196990748-96bc2f47-56f2-4813-988a-71d5ec9a62a7.PNG">
 </p>
 <p align="center">
-  <img width="700" height="300" src="https://user-images.githubusercontent.com/88955224/196990753-1677eeec-66c9-41e4-a9e8-5c323f695f26.png">
+  <img width="650" height="300" src="https://user-images.githubusercontent.com/88955224/196990753-1677eeec-66c9-41e4-a9e8-5c323f695f26.png">
 </p>
 
 ## <img src="https://user-images.githubusercontent.com/101813544/197008423-3f4f5b4a-0481-4e63-8448-2d3b9ac32a22.png" width="40" height="40"> 4). Results
