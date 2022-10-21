@@ -224,21 +224,18 @@
 
 ## <img src="https://user-images.githubusercontent.com/101813544/197011989-691c320f-ec9e-4666-ba75-c8ed63f03fc9.png" width="36" height="36"> Team Members
 
-6410422014 (%)
+6410422014 (24%): Coding Master, Train Model
 
-6410422012 (%)
+6410422012 (22%): Code Reviewer, Train Model
 
-6410422019 (%) 
+6410422019 (18%): Report Leader, Train Model
 
-6410422023 (%)
+6410422023 (18%): Report main contributor, Train Model
 
-6410422035 (%)
+6410422035 (18%): Dataset Review, Train Model
+
+This project is a part of subject DADS7202. Data Analytics and Data Science. NIDA
 
 This project is a part of subject DADS7202. Data Analytics and Data Science. NIDA
 
 
-
-## <img src="https://user-images.githubusercontent.com/101813544/197011989-691c320f-ec9e-4666-ba75-c8ed63f03fc9.png" width="36" height="36"> Acknowledgments
-
-Inspiration, code snippets, etc.
-* [Network Drawing tool](https://alexlenail.me/NN-SVG/AlexNet.html)
