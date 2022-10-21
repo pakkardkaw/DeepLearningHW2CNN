@@ -34,7 +34,7 @@
 </p>
 
   - Total 8 classes were labeled: 0 Monday, 1 Tuesday, 2 Wednesday, 3 Wednesday_Night, 4 Thursday, 5 Friday, 6 Saturday, and 7 Sunday
-  - Data Reference: For more information about the dataset, refer to Sources (see reference.xlsx).
+  - Data Reference: For more information about the dataset, refer to Sources (see [reference.xlsx](reference.xlsx)).
 
 ## <img src="https://user-images.githubusercontent.com/101813544/197008423-3f4f5b4a-0481-4e63-8448-2d3b9ac32a22.png" width="40" height="40"> 3). Methodology
 
@@ -237,6 +237,9 @@
 This project is a part of subject DADS7202. Data Analytics and Data Science. NIDA
 
 ## Reference
+[Keras CNN Application API](https://keras.io/api/applications/)
+[Imagenet classes](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/)
+[Image of Buddha posture](https://www.finearts.go.th/main/view/29958-%E0%B8%AA%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B5%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99---%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94)
 
 
 
