@@ -128,11 +128,12 @@
      - Traintime : 302.518+-4.1259
 
 <p align="center">
-  <img width="650" height="160" src="https://user-images.githubusercontent.com/88955224/196989301-c6f18841-4536-46a6-ae70-65a45d4192f6.PNG">
+  <img width="650" height="160" src="https://user-images.githubusercontent.com/94279787/197127452-fc037fe7-064f-4479-9852-4152b0b55663.png">
 </p>
 <p align="center">
   <img width="650" height="300" src="https://user-images.githubusercontent.com/88955224/196989292-6d56789c-20ec-479b-ae81-0faa9aaebc50.png">
 </p>
+
 
   #### <img src="https://user-images.githubusercontent.com/101813544/197015168-e25a1546-2232-4cbf-aa87-145d90f3d9e8.png" width="18" height="18"> 3.3.4) MobileNetV2
        Input properties and train parameters
@@ -155,7 +156,7 @@
      - Dense Layer 8 Nodes with Softmax activation function
    * MobileNetV2 Results
      - Traintime : 336.6433+-4.8704
-     - 
+     
 <p align="center">
   <img width="650" height="160" src="https://user-images.githubusercontent.com/88955224/196990088-c2dfbbed-0d01-4e12-9466-9aa9a93be98c.PNG">
 </p>
@@ -183,7 +184,7 @@
      - Dense Layer 8 Nodes with Softmax activation function
    * InceptionResNetV2 Results
      - Traintime : 401.1403+-3.9203
-     - 
+     
 <p align="center">
   <img width="650" height="160" src="https://user-images.githubusercontent.com/88955224/196990748-96bc2f47-56f2-4813-988a-71d5ec9a62a7.PNG">
 </p>
