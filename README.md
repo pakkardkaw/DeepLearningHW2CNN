@@ -225,7 +225,7 @@
 
 This project is a part of subject DADS7202. Data Analytics and Data Science. NIDA
 
-## Reference
+## <img src="https://user-images.githubusercontent.com/11289173/197101903-5ef4f2d4-17e2-42f9-b5c4-b54a91ec9639.png" width="36" height="36"> Reference
 [Keras CNN Application API](https://keras.io/api/applications/)
 
 [Imagenet classes](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/)
