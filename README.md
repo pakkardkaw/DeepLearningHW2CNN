@@ -238,8 +238,10 @@ This project is a part of subject DADS7202. Data Analytics and Data Science. NID
 
 ## Reference
 [Keras CNN Application API](https://keras.io/api/applications/)
+
 [Imagenet classes](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/)
-[Image of Buddha posture](https://www.finearts.go.th/main/view/29958-%E0%B8%AA%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B5%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99---%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94)
+
+กรมศิลปากร กระทรวงวัฒนธรรม. พระพุทธรูปปางต่างๆ พิมพ์ครั้งที่ 4. กรุงเทพฯ : รุ่งศิลป์การพิมพ์ (1977), 2558.
 
 
 
