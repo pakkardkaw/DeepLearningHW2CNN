@@ -9,17 +9,6 @@
 * Pre-trained accuracy results range from 61% to 73%. Loss values range from 0.75 to 1.20. The best model with lowest loss value and highest accuracy score is EfficientNetB0.
 * After tuning accuracy results range from 67% to 82%. Loss values range from 0.72 to 1.08. The best model with lowest loss value and highest accuracy score is InceptionResNetV2 with 34% accuracy score improvement.
 
-## <img src="https://user-images.githubusercontent.com/101813544/197007851-a8f8f95c-a853-41f4-8b67-0226e21a5b2d.png" width="36" height="36"> Contents
-* Introduction
-* Data
-  - Data Source
-* Methodology
-  - Data Preprocessing/ Augmentation
-  - CNN Models
-  - Fine Tuning Models
-* Results
-* Discussion and Conclusion
-
 ## <img src="https://user-images.githubusercontent.com/101813544/197008423-3f4f5b4a-0481-4e63-8448-2d3b9ac32a22.png" width="40" height="40"> 1). Introduction: Multi-Class Classification
 * This project aims to use transfer learning on a pre-trained CNN to perform multi-class classification on postures of Buddha images dataset and compare the pre-trained model and after-fine tuned model performances.  
 * A pre-trained model is a network that's already been trained on a large dataset and saved, which can be adapted efficiently to our custom dataset. 
